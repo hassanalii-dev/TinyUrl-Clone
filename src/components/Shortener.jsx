@@ -121,7 +121,7 @@ try {
 
   if (err instanceof TypeError) {
     setError(
-      "Cannot connect to Railway. Check the backend URL, deployment status, and CORS settings."
+      ""
     );
   } else {
     setError(err.message || "");
